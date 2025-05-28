@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			height: {
+				7.5: '30px',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
