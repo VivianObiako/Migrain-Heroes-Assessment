@@ -41,7 +41,7 @@ export default {
   			},
   			primaryText: '#323232',
   			secondary: {
-  				DEFAULT: 'hsl(var(--secondary))',
+  				DEFAULT: '#5A6756',
   				foreground: 'hsl(var(--secondary-foreground))'
   			},
   			veryLightGreen: '#EEECDF',
