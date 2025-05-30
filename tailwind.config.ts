@@ -30,6 +30,7 @@ export default {
   				DEFAULT: 'hsl(var(--accent))',
   				foreground: 'hsl(var(--accent-foreground))'
   			},
+			orange: '#DA713A',
   			gray42: '#424242',
   			gray80: '#808080',
   			gray82: '#828282',

@@ -2,6 +2,7 @@ import LogoImageSrc from '../assets/images/logo.png';
 import MigraineHeroesSrc from '../assets/images/migraine_heroes.png';
 import LockSvg from '../assets/icons/lock.svg';
 import { useState } from 'react';
+import { Checkbox } from "@/components/ui/checkbox";
 
 const Welcome = () => {
     const [isAgreed, setIsAgreed] = useState(false);
@@ -26,12 +27,11 @@ const Welcome = () => {
                     </div>
 
                     <div className='flex items-center justify-center gap-3'>
-                        <input
-                            type="checkbox"
+                        <Checkbox
                             id="agree"
-                            className="w-5 h-5 text-accent bg-gray-100 border-gray-300 rounded-sm"
-                            onChange={(e) => setIsAgreed(e.target.checked)}
+                            className="w-5 h-5 bg-gray-100 border-gray-300 rounded-[6px] data-[state=checked]:text-orange data-[state=checked]:border-orange"
                             checked={isAgreed}
+                            onCheckedChange={checked => setIsAgreed(checked === true)}
                         />
                         <label htmlFor="agree" className="text-secondary text-base font-normal leading-5.5">
                             I agree to the <a className='font-semibold underline' href="/">Privacy Policy</a> and the <a href="/" className='font-semibold underline'>Terms of Use</a>.
