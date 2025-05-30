@@ -79,13 +79,16 @@ export default {
   			}
   		},
   		width: {
-  			'55': '220px',
+  			'5.5': '22px',
+			'35.5': '142px',
+			'55': '220px',
   			'318': '318px',
-  			'5.5': '22px'
   		},
   		height: {
+			'6.5': '26px',
+  			'7.5': '30px',
+			'35.5': '142px',
   			'55': '220px',
-  			'7.5': '30px'
   		},
   		backgroundColor: {
   			primary: '#F8F8E9',
@@ -93,16 +96,19 @@ export default {
   		},
   		spacing: {
   			'25': '100px',
+			'17.5': '70px',
   			'3.75': '15px',
   			'7.5': '30px'
   		},
   		fontSize: {
+  			'4.5': '18px',
+			'7.5': '30px',
   			'10': '40px',
-  			'4.5': '18px'
   		},
   		lineHeight: {
+			'4.5': '18px',
+  			'5.5': '22px',
   			'13': '52px',
-  			'5.5': '22px'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
